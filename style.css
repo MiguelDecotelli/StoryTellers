@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(220, 220, 220, 0.523);
+}
+
+body,
+html {
+    height: 100%;
+}
+
+#container-header {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* HEADER - CABEÇALHO */
+
+.header {
+    height: 5rem;
+    border: solid 2rem #d2c4a9;
+    background-color: #784c25;
+}
+
+#transform span {
+    display: inline-block;
+    transition: transform 0.3s;
+}
+
+#transform span:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+
+.titulo {
+    color: whitesmoke;
+    -webkit-text-stroke: .05rem black;
+    padding-top: 1.2rem;
+    float: left;
+}
+
+nav {
+    padding: 1rem;
+}
+
+nav>ul>li {
+    list-style-type: none;
+    margin: .6rem;
+    float: right;
+}
+
+nav a {
+    color: whitesmoke;
+    font-weight: bolder;
+    -webkit-text-stroke: .02rem black;
+    text-decoration: none;
+}
+
+/* FOOTER - RODAPÉ */
+
+.rodape {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#linha {
+    color: #784c25;
+}
+
+footer {
+    padding-top: 2.5rem;
+}
+
+footer>h4 {
+    font-size: larger;
+    color: #b47440;
+}
+
+footer>p {
+    color: #b47440;
+}
+
+footer>p>a {
+    text-decoration: none;
+    color: #784c25;
+    margin: .5rem;
+}
+
+/* MAIN - PRINCIPAL */
+
+.main-title {
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+
+.main-title span.title {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #d2c4a9;
+    padding: 0 12rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing: .25rem;
+    text-transform: capitalize;
+}
+
+.main-text {
+    color: #d2c4a9;
+    background-color: #784c25;
+    text-align: justify;
+    padding: 3rem;
+}
+
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(220, 220, 220, 0.95);
+    color: #784c25;
+    border-radius: .2rem;
+    margin-bottom: 1.5rem;
+}
+
+.main-text p {
+    margin-bottom: 2rem;
+}
+
+.imagem-parallax1,
+.imagem-parallax2,
+.imagem-parallax3 {
+    position: relative;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+.imagem-parallax1 {
+    background-image: url(imgs/001.png);
+}
+
+.imagem-parallax2 {
+    background-image: url(imgs/009.png);
+}
+
+.imagem-parallax3 {
+    background-image: url(imgs/008.png);
+}
+
+/* ABOUT - SOBRE */
+
+.container {
+    padding-left: 2rem;
+    width: 90%;
+    height: auto;
+}
+
+section {
+    width: 100%;
+    border: solid 3px black;
+}
+
+#about-image {
+    margin-top: .2rem;
+    width: 28rem;
+    height: auto;
+    /* float: left; */
+
+}
+
+/* SIGN UP - REGISTRO */
+
+form {
+    padding: 1rem;
+    margin: 0 auto;
+    align-self: center;
+    width: 20%;
+}
+
+input {
+    width: 90%;
+    text-align: justify;
+    margin: .425rem;
+    padding: .25rem;
+    box-shadow: .275rem .375rem .475rem #784c25;
+    background-color: white;
+    border-radius: .5rem;
+}
+
+.form-button {
+    text-align: center;
+}
+
+.form-button button {
+    margin-top: .825rem;
+    background-color: #784c25;
+    color: #d2c4a9;
+    font-size: small;
+    padding: .425rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+.color1 {
+    background-color: #b47440;
+}
+
+
+
+.color2 {
+    background-color: #ecc39b;
+}
+
+
+
+.color3 {
+    background-color: #784c25;
+}
+
+
+
+.color4 {
+    background-color: #97856e
+}
+
+
+
+.color5 {
+    background-color: #d2c4a9
+}
+
