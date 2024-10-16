@@ -5,11 +5,18 @@
 
 body {
     background-color: rgba(220, 220, 220, 0.523);
+    display: block;
+    position: relative;
+    min-height: 100%;
 }
 
 body,
 html {
     height: 100%;
+}
+
+.container {
+    margin-top: 3rem;
 }
 
 #container-header {
@@ -210,29 +217,33 @@ input {
     cursor: pointer;
 }
 
+/* CONTACT - CONTATO */
+
+select {
+    width: 93.5%;
+    text-align: justify;
+    margin: .425rem;
+    padding: .25rem;
+    box-shadow: .275rem .375rem .475rem #784c25;
+    background-color: white;
+    border-radius: .5rem;
+}
+
 .color1 {
     background-color: #b47440;
 }
-
-
 
 .color2 {
     background-color: #ecc39b;
 }
 
-
-
 .color3 {
     background-color: #784c25;
 }
 
-
-
 .color4 {
     background-color: #97856e
 }
-
-
 
 .color5 {
     background-color: #d2c4a9
